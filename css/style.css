@@ -9772,3 +9772,186 @@ ul li strong {
 .col-md-6 {
   padding: 10px;
 }
+
+
+/* =========================================
+   GLASSMORPHISM & ABOUT ME UPGRADES
+   ========================================= */
+
+/* The Glass Effect Class */
+.glass-effect {
+    background: rgba(255, 255, 255, 0.05) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    color: white;
+    border-radius: 15px !important;
+    transition: transform 0.3s ease;
+}
+
+.glass-effect:hover {
+    border-color: rgba(255, 189, 57, 0.5); /* Glows yellow on hover */
+    transform: translateY(-3px);
+}
+
+/* =========================================
+   GLASSMORPHISM & SKILLS UPGRADES
+   ========================================= */
+
+/* The Glass Effect Class */
+.glass-effect {
+    background: rgba(255, 255, 255, 0.08) !important; /* Slightly brighter for visibility */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    color: white;
+    border-radius: 15px !important;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.glass-effect:hover {
+    border-color: rgba(255, 189, 57, 0.8); /* Glows yellow on hover */
+    transform: translateY(-3px);
+}
+
+/* Updated Skill Boxes (Glass Style) */
+.skill-box-glass {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 50px !important; /* Pill shape */
+    display: inline-block;
+    cursor: default;
+}
+
+/* Image Container (Clean - No Circle Animation) */
+.about-img-container {
+    padding: 10px;
+    display: inline-block;
+}
+/* Tech Stack Icons */
+.tech-icon-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    background: rgba(255,255,255,0.03);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.tech-icon-box:hover {
+    background: rgba(255,189,57,0.1);
+    transform: scale(1.1);
+}
+.tech-icon-box i {
+    font-size: 2rem;
+    color: #ffbd39;
+    margin-bottom: 5px;
+}
+
+
+/* =========================================
+   FINAL ABOUT ME STYLES (Icons + Glass)
+   ========================================= */
+
+/* 1. Glass Container Style */
+.glass-effect {
+    background: rgba(255, 255, 255, 0.08) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    color: white;
+    border-radius: 15px !important;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.glass-effect:hover {
+    border-color: rgba(255, 189, 57, 0.8);
+    transform: translateY(-3px);
+}
+
+/* 2. Tech Stack ICONS (The square boxes) */
+.tech-icon-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 85px;
+    height: 85px;
+    margin: 8px;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.tech-icon-box:hover {
+    background: rgba(255,189,57,0.15);
+    border-color: #ffbd39;
+    transform: translateY(-5px);
+}
+
+.tech-icon-box i {
+    font-size: 2rem;
+    color: #ffbd39;
+    margin-bottom: 8px;
+}
+
+.tech-icon-box span {
+    font-size: 11px;
+    color: #fff;
+    font-weight: 500;
+}
+
+/* 3. Library PILLS (The small text bubbles) */
+.skill-pill {
+    font-size: 13px;
+    padding: 6px 15px;
+    margin: 4px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    color: #ccc;
+    display: inline-block;
+}
+
+/* 4. Image Container (Clean) */
+.about-img-container {
+    padding: 10px;
+    display: inline-block;
+}
+
+/* =========================================
+   UPDATED PILL STYLES (With Hover Glow)
+   ========================================= */
+
+.skill-pill {
+    font-size: 13px;
+    padding: 8px 18px; /* Slightly larger for better clickability */
+    margin: 5px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    color: #ccc;
+    display: inline-block;
+    transition: all 0.3s ease; /* Smooth animation */
+    cursor: default;
+}
+
+/* The Hover Effect (Matches Core Tech Stack) */
+.skill-pill:hover {
+    background: rgba(255, 189, 57, 0.15); /* Yellow tint */
+    border-color: #ffbd39; /* Yellow border */
+    color: #fff; /* Bright white text */
+    transform: translateY(-3px); /* Lifts up */
+    box-shadow: 0 5px 15px rgba(255, 189, 57, 0.1); /* Soft glow */
+}
